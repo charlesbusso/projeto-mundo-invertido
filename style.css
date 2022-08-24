@@ -126,7 +126,7 @@
     position: absolute;
   }
 
-  .world-characters{
+  #top-characters{
     height: 100%;
     background-color: var(--character-top-image-color);
     mask: var(--character-top-image-src) 100% no-repeat;
