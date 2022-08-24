@@ -4,12 +4,104 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Mundo Invertido</title>
 </head>
 <body>
     <header>
-        
+        <audio id="music">
+            <source src="assets_musics_normal-world.mpeg" />
+            este navegador não aceita audio
+        </audio>
+        <div class="header-content">
+            <img class="invert-element" src="logo.svg" alt="imagem pri">
+            <p class="invert-element" role="text">
+                Uma jornada para quem não tem medo do desconhecido. O caminho para o mundo invertido é incerto, repletos de obstáculos e perigos. porém, a recompensa é grande: Salvar Hawkings e o mundo todo das garras de Vecna. Você está preparado? Então clique no botão abaixo para entrar no mundo invertido!
+            </p>
+            <button id="switch-theme-button" onclick="switchTheme()" >Mundo Invertido</button>
+            <div id="top-characters" class="world-characters"></div>
+        </div>
+
     </header>
+    <main>
+        <section>
+            <div class="section-text">
+                <h1>O Mundo Invertido</h1>
+                <p role="text">
+                    O Mundo Invertido pareceu uma cópia do nosso mundo, mas com criaturas horrendas, tesmpestades assustadoras, muita escuridão e entidades malignas. Um reino controlado por Vecna, que tem planos de trazer tudo isso ao nosso mundo.
+                </p>
+                <img class="invert-element" src="inverted-world.png" alt="ilustratção do mundo invertido">
+            </div>
+        </section>
+        <section id="section-stranger-things-trailer" class="container">
+            <div class="video-frame" aria-hidden="true">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/SJ9EFhQ3ANQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </iframe>
+            </div>
+            <div class="section-text">
+                <h2>Stranger Things Vol.4</h2>
+                <p role="text">
+                    Mais experientes,os heróis de Stranger Things também precisam enfrentar desafios maiores do que nunca e fazer decisões que vão mudar a vida para sempre. confira ao lado o trailer da quarta temporada.
+                </p>
+            </div>
+        </section>
+        <section id="section-stranger-things-gallery">
+            <div class="container-section-text">
+                <h2>A segunda Série mais assistida da Netflix</h2>
+                <ul class="gallery-container" role="gallery">
+                    <li class="gallery-image invert-element">
+                        <img src="serie-image-01.png" alt="imagem de Vecna">
+                    </li>
+                    <li class="gallery-image invert-element">
+                        <img src="serie-image-02.png" alt="imagem do grupo da onze">
+                    </li>
+
+                    <li class="gallery-image invert-element">
+                        <img src="serie-image-03.png" alt="imagen da onze assustada">
+                    </li>
+                </ul>
+
+            </div>
+
+        </section>
+        <section id="section-form" class="container">
+            <h2>O Clube Dungeons & Dragons</h2>
+                <p>Para deter Vecna, os heróis de Stranger Things também precisam de você. O clube de D&D mais famoso de Hawkings está com vagas abertas para sua próxima aventura.Se você é destemido, gosta de desafios e não tem medo de rodar o D20, chegou a hora de se inscrever para fazer parte da campanha.
+                </p>
+                <div class="form-content">
+                    <h3>Entre para o clube de D&D e tenha experiências de <span>outro mundo</span>
+                    </h3>
+                    <div class="form-container">
+                        <form>
+                            <label for="txtname">Nome Completo</label>
+                            <input type="text" name="Name" id="txtname">
+
+                            <label for="txtmail">E-mail</label>
+                            <input type="email" name="email" id="txtEmail">
+
+                            <label for="txtlevel">Level</label>
+                            <input type="text" name="level" id="txtlevel">
+
+                            <label for="txtcharacter">Personagem</label>
+                            <textarea name="character" id="txtcharacter" cols="30" rows="10"></textarea>
+
+                            <button type="button" id="btnSubscribe">Me Inscrever</button>
+                        </form>
+                        <!--script "type=module" src="assets/js/main.js"><script>-->
+
+                    </div>
+
+                </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            Projeto construído para aprimoramento do HTML, CSS e Java Script
+        </p>
+
+    </footer>
     
 </body>
 </html>
