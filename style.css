@@ -220,7 +220,7 @@ section{
   text-align: right;
 }
 #section-stranger-things-trailer .section-text h2{
-  max-width: 200px;
+  max-width: 150px;
   display: inline-block;
 }
 #section-stranger-things-trailer .video-frame{
@@ -238,7 +238,7 @@ section{
 #section-stranger-things-gallery{
   width: 100%;
   background: var(--background-lamp-image) 120% / 50% no-repeat;
-  justify-content: center;
+  justify-content: center ;
 }
 
 #section-stranger-things-gallery .container{
@@ -246,7 +246,7 @@ section{
 
 }
 #section-stranger-things-gallery .container h2{
-  width: 800px;
+  width: 600px;
   
 
 }
@@ -274,14 +274,14 @@ section{
 
 #section-form{ 
   display: flex;
-  max-width: 500px;
+  max-width: 450px;
   flex-direction: column;
   align-items: center;
   gap: 30px;
   text-align: center;
 }
 #section-form h2{
-  width: 300px;
+  width: 280px;
  
 }
 #section-form .form-content h3 {
@@ -343,7 +343,7 @@ footer{
   overflow: hidden;
 }
 footer p{
-  max-width: 700px;
+  max-width: 1200px;
   margin-bottom: 24px;
 }
 footer::before
