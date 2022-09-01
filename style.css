@@ -302,14 +302,14 @@ section{
 
 #section-form{ 
   display: flex;
-  max-width: 600px;
+  max-width: 500px;
   flex-direction: column;
   align-items: center;
   gap: 30px;
   text-align: center;
 }
 #section-form h2{
-  width: 150px;
+  width: 30%;
   font-size: 2rem;
  
 }
@@ -318,7 +318,7 @@ section{
 }
 
 #section-form .form-content h3 {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: var(--highlight-color);
   flex-basis: 10%;
   text-align: left;
@@ -335,7 +335,7 @@ section{
 }
 #section-form .form-container{
   justify-content: space-between;
-  margin-left: 30px;
+  margin-left: 15px;
   width: 40%;
   flex-basis: 40%;
   position: relative;
