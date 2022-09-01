@@ -66,7 +66,7 @@
 
   h1,h2,h3{
     font-family: var(--featured-font-family);
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--primary-color);
     text-transform: uppercase;
     margin-bottom: 40px;
@@ -126,7 +126,7 @@
   }
 
   header{
-    min-width: 280px;
+    min-width: 300px;
     max-width: 1350px;
     background-color: var(--header-background-color);
     min-height: 850px;
@@ -213,11 +213,12 @@ section{
   align-items: center;  
 }
 #section-inverted-world img{
-  max-width: 210px;
+  margin-left: 40px;
+  max-width: 150px;
 }
 #section-inverted-world .section-text{
-  width: 90%;
-  font-size: 1.1rem;
+  width: 50%;
+  font-size: 1rem;
   
 }
 #section-inverted-world .section-text h1{
