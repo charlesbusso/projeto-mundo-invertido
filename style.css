@@ -1,4 +1,4 @@
-@charset "UTF8";
+8@charset "UTF8";
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
@@ -302,13 +302,14 @@ section{
 
 #section-form{ 
   display: flex;
-  max-width: 500px;
+  max-width: 300px;
   flex-direction: column;
   align-items: center;
   gap: 30px;
   text-align: center;
 }
 #section-form h2{
+  text-align: center;
   width: 30%;
   font-size: 2rem;
  
