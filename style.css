@@ -94,7 +94,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    min-width: 300px;
+    min-width: 320px;
     max-width: 1350px;
     margin: auto;
   }
@@ -126,7 +126,7 @@
   }
 
   header{
-    min-width: 300px;
+    min-width: 320px;
     max-width: 1350px;
     background-color: var(--header-background-color);
     min-height: 850px;
@@ -206,7 +206,7 @@ section{
   margin-bottom: 95px;
 }
 .container{
-  min-width: 300px;
+  min-width: 320px;
   max-width: 800px;
 }
 #section-inverted-world {
@@ -314,7 +314,7 @@ section{
  
 }
 #section-form .texto{
-  width: 350px;
+  width: 320px;
 }
 
 #section-form .form-content h3 {
