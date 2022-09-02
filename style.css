@@ -232,7 +232,7 @@ section{
 }
 
 #section-stranger-things-trailer .section-text{
-  max-width: 170px;
+  max-width: 190px;
   text-align: right;
   margin-right: 20px
   ;
@@ -302,7 +302,7 @@ section{
 
 #section-form{ 
   display: flex;
-  max-width: 300px;
+  max-width: 320px;
   flex-direction: column;
   align-items: center;
   gap: 30px;
@@ -310,7 +310,7 @@ section{
 }
 #section-form h2{
   text-align: center;
-  width: 30%;
+  width: 40%;
   font-size: 2rem;
  
 }
