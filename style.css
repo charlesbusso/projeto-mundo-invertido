@@ -206,7 +206,7 @@ section{
   margin-bottom: 95px;
 }
 .container{
-  min-width: 320px;
+  min-width: 350px;
   max-width: 800px;
 }
 #section-inverted-world {
@@ -217,7 +217,7 @@ section{
   max-width: 150px;
 }
 #section-inverted-world .section-text{
-  width: 40%;
+  width: 45%;
   font-size: 1rem;
   
 }
@@ -234,8 +234,7 @@ section{
 #section-stranger-things-trailer .section-text{
   max-width: 190px;
   text-align: right;
-  margin-right: 20px
-  ;
+  margin-right: 20px;
   
 }
 #section-stranger-things-trailer .section-text h2{
@@ -302,7 +301,7 @@ section{
 
 #section-form{ 
   display: flex;
-  max-width: 320px;
+  max-width: 350px;
   flex-direction: column;
   align-items: center;
   gap: 30px;
@@ -315,11 +314,11 @@ section{
  
 }
 #section-form .texto{
-  width: 230px;
+  width: 250px;
 }
 
 #section-form .form-content h3 {
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   color: var(--highlight-color);
   flex-basis: 10%;
   text-align: left;
