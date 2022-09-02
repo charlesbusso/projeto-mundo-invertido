@@ -56,7 +56,7 @@
   }
 
   *{
-    margin: auto;
+    margin: 0;
     box-sizing: border-box;
     transition: 1s;
   }
@@ -214,12 +214,12 @@ section{
   max-width: 150px;
 }
 #section-inverted-world .section-text{
-  width: 45%;
+  width: 50%;
   font-size: 1rem;
   
 }
 #section-inverted-world .section-text h1{
-  max-width: 210px
+  max-width: 300px
 }
 
 #section-stranger-things-trailer{
@@ -237,7 +237,7 @@ section{
   font-size: 1.8rem;
   margin-right: 100px;
   width: 40%;
-  display: inline-block;
+  display: block;
   flex-wrap: nowrap;
   
 }
