@@ -77,20 +77,23 @@
                     <h3>Entre para o clube de D&D e tenha experiências de <span>outro mundo</span>
                     </h3>
                     <div class="form-container">
-                        <form>
-                            <label for="txtname">Nome Completo</label>
-                            <input type="text" name="Name" id="txtname">
+                        <form action="cadastro.php" method="get" autocomplete="on" >
+                            <label for="txtname">Nome</label>
+                            <input type="text" name="Name" id="txtname" required placeholder="nome do usuario">
+
+                            <label for="txtsobrenome">sobrenome</label>
+                            <input type="text" name="sobrenome" id="txtsobrenome" required placeholder="sobrenome">
 
                             <label for="txtmail">E-mail</label>
-                            <input type="email" name="email" id="txtEmail">
+                            <input type="email" name="email" id="txtEmail" required placeholder="seu Email">
+                            <label for="textsen">Cadastrar Senha: </label>
+                            <input type="passworld" name="sen" id="sen" required minlength="8" placeholder="mínimo de 8 letras" >
+                            <input type="reset" value="Limpar">
+                            <input type="submit" value="me inscrever">
 
-                            <label for="txtlevel">Level</label>
-                            <input type="text" name="level" id="txtlevel">
+                            </textarea>
 
-                            <label for="txtcharacter">Personagem</label>
-                            <textarea name="character" id="txtcharacter" cols="30" rows="10"></textarea>
-
-                            <button type="button" id="btnSubscribe">Me Inscrever</button>
+                            
                         </form>
                         <script src="main.js"></script>
 
