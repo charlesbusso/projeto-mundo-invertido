@@ -94,7 +94,7 @@
     flex-direction: column;
     align-items: center;
     min-width: 300px;
-    max-width: 1350px;
+    max-width: 1450px;
     
   }
   main::before {
@@ -204,7 +204,7 @@ section{
 }
 .container{
   min-width: 300px;
-  max-width: 900px;
+  max-width: 1450px;
 }
 #section-inverted-world {
   align-items: center;  
@@ -234,6 +234,8 @@ section{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  
   
 }
 
@@ -247,8 +249,8 @@ section{
 #section-stranger-things-trailer  h2{
   font-size: 1.5rem;
   width: 40%;
-  text-align: left;
-  padding-left: 70px;
+  text-align: center;
+  
   
   
 }
@@ -271,9 +273,9 @@ section{
   #section-stranger-things-trailer .video-frame iframe{
     align-items: center;
   }
-
-
-  
+  #section-stranger-things-trailer  h2{
+    text-align: center;
+  }
 }
 #section-stranger-things-gallery{
   width: 90%;
